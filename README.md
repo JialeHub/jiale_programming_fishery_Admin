@@ -1,5 +1,7 @@
 # 嘉乐的程序设计 | 渔业信息采集系统 | 后台管理系统
 
+# DEMO地址：<https://luojiale.com:803/>
+
 # Jiale-admin
 
 ## Project setup

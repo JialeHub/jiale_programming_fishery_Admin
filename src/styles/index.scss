@@ -1,0 +1,208 @@
+html {
+  overflow-y: auto !important;
+}
+
+a {
+  transition-duration: .05s;
+  transition-timing-function: ease-in-out;
+}
+
+.underLink {
+  color: #0073aa;
+  text-decoration: underline !important;
+}
+
+a:hover {
+  color: #00a0d2 !important;
+  transition-duration: .05s !important;
+  transition-timing-function: ease-in-out !important;
+}
+/*重置默认light主题*/
+
+.theme--light.v-app-bar.v-toolbar.v-sheet{
+  background-color: #FFFFFF;
+}
+.theme--light.v-application {
+  background: #f2f5f8;
+  color: #304457;
+}
+.theme--dark.v-application {
+  background: #304457;
+  color: #f2f5f8;
+}
+.theme--dark.v-navigation-drawer {
+  background-color: #1D2935;
+}
+.v-navigation-drawer__border{
+  background-color: rgba(200,210,220,0.4);
+}
+.theme--dark .v-navigation-drawer__border{
+  background-color: rgba(40,50,60,0.4);
+}
+.theme--dark.v-app-bar.v-toolbar.v-sheet {
+  background-color: #263744;
+}
+
+/*重置light主题*/
+
+.v-application .title {
+  font-size: 17px!important;
+  font-weight: 800;
+  letter-spacing: .0125em!important;
+}
+.v-application .overline {
+  font-size: 12px!important;
+  letter-spacing: 2px!important;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+
+/*覆盖源码重置海拔阴影*/
+.v-application .elevation-24 {
+  box-shadow: 0 11px 30px -7px rgba(85, 85, 85, .08), 0 24px 30px 3px rgba(85, 85, 85, .06), 0 9px 40px 8px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-23 {
+  box-shadow: 0 11px 30px -7px rgba(85, 85, 85, .08), 0 23px 30px 3px rgba(85, 85, 85, .06), 0 9px 40px 8px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-22 {
+  box-shadow: 0 10px 30px -6px rgba(85, 85, 85, .08), 0 22px 30px 3px rgba(85, 85, 85, .06), 0 8px 40px 7px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-21 {
+  box-shadow: 0 10px 30px -6px rgba(85, 85, 85, .08), 0 21px 30px 3px rgba(85, 85, 85, .06), 0 8px 40px 7px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-20 {
+  box-shadow: 0 10px 30px -6px rgba(85, 85, 85, .08), 0 20px 30px 3px rgba(85, 85, 85, .06), 0 8px 30px 7px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-19 {
+  box-shadow: 0 9px 30px -6px rgba(85, 85, 85, .08), 0 19px 30px 2px rgba(85, 85, 85, .06), 0 7px 30px 6px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-18 {
+  box-shadow: 0 9px 30px -5px rgba(85, 85, 85, .08), 0 18px 30px 2px rgba(85, 85, 85, .06), 0 7px 30px 6px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-17 {
+  box-shadow: 0 8px 30px -5px rgba(85, 85, 85, .08), 0 17px 30px 2px rgba(85, 85, 85, .06), 0 6px 30px 5px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-16 {
+  box-shadow: 0 8px 30px -5px rgba(85, 85, 85, .08), 0 16px 30px 2px rgba(85, 85, 85, .06), 0 6px 30px 5px rgba(85, 85, 85, .03) !important
+}
+
+.v-navigation-drawer--is-mobile:not(.v-navigation-drawer--close), .v-navigation-drawer--temporary:not(.v-navigation-drawer--close) {
+  box-shadow: 0 8px 30px -5px rgba(85, 85, 85, .08), 0 16px 30px 2px rgba(85, 85, 85, .06), 0 6px 30px 5px rgba(85, 85, 85, .03)
+}
+
+.v-application .elevation-15 {
+  box-shadow: 0 8px 30px -5px rgba(85, 85, 85, .08), 0 15px 30px 2px rgba(85, 85, 85, .06), 0 6px 30px 5px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-14 {
+  box-shadow: 0 7px 30px -4px rgba(85, 85, 85, .08), 0 14px 30px 2px rgba(85, 85, 85, .06), 0 5px 30px 4px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-13 {
+  box-shadow: 0 7px 30px -4px rgba(85, 85, 85, .08), 0 13px 30px 2px rgba(85, 85, 85, .06), 0 5px 30px 4px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-12 {
+  box-shadow: 0 7px 30px -4px rgba(85, 85, 85, .08), 0 12px 30px 2px rgba(85, 85, 85, .06), 0 5px 30px 4px rgba(85, 85, 85, .03) !important
+}
+
+.v-btn--fab.v-btn--contained:active {
+  box-shadow: 0 7px 30px -4px rgba(85, 85, 85, .08), 0 12px 30px 2px rgba(85, 85, 85, .06), 0 5px 30px 4px rgba(85, 85, 85, .03)
+}
+
+.v-application .elevation-11 {
+  box-shadow: 0 6px 30px -4px rgba(85, 85, 85, .08), 0 11px 30px 1px rgba(85, 85, 85, .06), 0 4px 30px 3px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-10 {
+  box-shadow: 0 6px 30px -3px rgba(85, 85, 85, .08), 0 10px 30px 1px rgba(85, 85, 85, .06), 0 4px 30px 3px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-9 {
+  box-shadow: 0 5px 30px -3px rgba(85, 85, 85, .08), 0 9px 30px 1px rgba(85, 85, 85, .06), 0 3px 30px 2px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-8 {
+  box-shadow: 0 5px 30px -3px rgba(85, 85, 85, .08), 0 8px 30px 1px rgba(85, 85, 85, .06), 0 3px 30px 2px rgba(85, 85, 85, .03) !important
+}
+
+.v-btn--contained:active, .v-btn--fab.v-btn--contained:after, .v-menu__content,
+.v-sheet.v-card--hover:hover, .v-sheet.v-card--hover:focus, .v-card--raised {
+  box-shadow: 0 5px 30px -3px rgba(85, 85, 85, .08), 0 8px 30px 1px rgba(85, 85, 85, .06), 0 3px 30px 2px rgba(85, 85, 85, .03)
+}
+
+.v-application .elevation-7 {
+  box-shadow: 0 4px 30px -2px rgba(85, 85, 85, .08), 0 7px 30px 1px rgba(85, 85, 85, .06), 0 2px 30px 1px rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-6 {
+  box-shadow: 0 3px 30px -1px rgba(85, 85, 85, .08), 0 6px 30px 0 rgba(85, 85, 85, .06), 0 1px 30px 0 rgba(85, 85, 85, .03) !important
+}
+
+.v-btn--fab.v-btn--contained, .v-sheet.v-snack__wrapper:not(.v-sheet--outlined) {
+  box-shadow: 0 3px 30px -1px rgba(85, 85, 85, .08), 0 6px 30px 0 rgba(85, 85, 85, .06), 0 1px 30px 0 rgba(85, 85, 85, .03)
+}
+
+.v-application .elevation-5 {
+  box-shadow: 0 3px 30px -1px rgba(85, 85, 85, .08), 0 5px 30px 0 rgba(85, 85, 85, .06), 0 1px 30px 0 rgba(85, 85, 85, .03) !important
+}
+
+.v-application .elevation-4 {
+  box-shadow: 0 2px 30px -1px rgba(85, 85, 85, .08), 0 4px 30px 0 rgba(85, 85, 85, .06), 0 1px 30px 0 rgba(85, 85, 85, .03) !important
+}
+
+.v-sheet.v-app-bar.v-toolbar:not(.v-sheet--outlined), .v-sheet.v-toolbar:not(.v-sheet--outlined),
+.v-toolbar, .v-btn--contained:after, .v-item-group.v-bottom-navigation, .v-pagination__item--active, {
+  box-shadow: 0 2px 30px -1px rgba(85, 85, 85, .08), 0 4px 30px 0 rgba(85, 85, 85, .06), 0 1px 30px 0 rgba(85, 85, 85, .03)
+}
+//switch阴影
+.v-input--switch:not(.v-input--switch--flat):not(.v-input--switch--inset) .v-input--switch__thumb,{
+  box-shadow: 0 2px 4px -1px rgba(85, 85, 85, 0.2), 0px 4px 5px 0px rgba(85, 85, 85, 0.14), 0px 1px 10px 0px rgba(85, 85, 85, 0.12);
+}
+
+.v-application .elevation-3 {
+  box-shadow: 0 3px 30px -2px rgba(85, 85, 85, .08), 0 3px 40px 0 rgba(85, 85, 85, .06), 0 1px 30px 0 rgba(85, 85, 85, .03) !important
+}
+
+.v-color-picker__preview .v-slider:not(.v-slider--disabled) .v-slider__thumb {
+  box-shadow: 0 3px 30px -2px rgba(85, 85, 85, .08), 0 3px 40px 0 rgba(85, 85, 85, .06), 0 1px 30px 0 rgba(85, 85, 85, .03)
+}
+
+.v-application .elevation-2 {
+  box-shadow: 0 3px 10px -2px rgba(85, 85, 85, .08), 0 2px 20px 0 rgba(85, 85, 85, .06), 0 1px 30px 0 rgba(85, 85, 85, .03) !important
+}
+
+.v-btn--contained, .v-text-field.v-text-field--solo:not(.v-text-field--solo-flat) > .v-input__control > .v-input__slot,
+.v-chip--clickable:active, .v-sheet.v-card:not(.v-sheet--outlined), .v-color-picker, .v-expansion-panel::before,
+.v-pagination__item, .v-pagination__navigation, .v-stepper, .v-stepper__header, {
+  box-shadow: 0 3px 10px -2px rgba(85, 85, 85, .08), 0 2px 20px 0 rgba(85, 85, 85, .06), 0 1px 30px 0 rgba(85, 85, 85, .03)
+}
+
+.v-application .elevation-1 {
+  box-shadow: 0 2px 10px -1px rgba(85, 85, 85, .08), 0 1px 10px 0 rgba(85, 85, 85, .06), 0 1px 30px 0 rgba(85, 85, 85, .03) !important
+}
+
+.v-timeline-item__dot {
+  box-shadow: 0 2px 10px -1px rgba(85, 85, 85, .08), 0 1px 10px 0 rgba(85, 85, 85, .06), 0 1px 30px 0 rgba(85, 85, 85, .03)
+}
+
+.v-application .elevation-0, .v-card--flat, .v-app-bar.v-app-bar--hide-shadow, .v-toolbar--flat {
+  box-shadow: 0 0 0 0 rgba(85, 85, 85, .08), 0 0 0 0 rgba(85, 85, 85, .06), 0 0 0 0 rgba(85, 85, 85, .03) !important
+}
+
+.v-sheet:not(.v-sheet--outlined), .v-sheet.v-alert:not(.v-sheet--outlined), .v-sheet.v-list:not(.v-sheet--outlined),
+.v-sheet.v-banner:not(.v-sheet--outlined), .v-color-picker--flat, .v-color-picker--flat .v-color-picker__track:not(.v-input--is-disabled) .v-slider__thumb,
+.v-picker--flat, .v-expansion-panels--flat > .v-expansion-panel::before, .v-sheet.v-footer:not(.v-sheet--outlined) {
+  box-shadow: 0 0 0 0 rgba(85, 85, 85, .08), 0 0 0 0 rgba(85, 85, 85, .06), 0 0 0 0 rgba(85, 85, 85, .03)
+}
+
+/*重置海拔*/

@@ -1,0 +1,158 @@
+// 公共样式
+/*阿里巴巴图标*/
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataTable{
+  display: flex;
+  flex-direction: column;
+
+  .v-data-footer,>div{
+    flex: 0 0 auto;
+  }
+  .v-data-table__wrapper{
+    flex: 1 1 auto;
+    padding-bottom: 10px;
+  }
+  tbody{
+    tr{
+      transition: all .1s;
+      &:hover{
+        background: rgba(255,255,255,1) !important;
+        box-shadow: 0 3px 15px -2px rgb(0 0 0 / 12%);
+        transform: translateY(-4px);
+      }
+      td{
+        border-bottom: 0!important;
+      }
+    }
+  }
+}
+
+.theme--dark .dataTable{
+  tbody{
+    tr{
+      &:hover{
+        background: #354553!important;
+      }
+    }
+  }
+}
+
+.batchOperationBtn {
+  margin-bottom: 10px;
+
+  > button, > a {
+    margin-right: 6px;
+    margin-bottom: 6px;
+  }
+  > a {
+    &:hover {
+      color: rgb(255,255,255,1) !important;
+    }
+  }
+
+}
+
+.filterToolbar {
+  display: flex;
+  //align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+
+  > .v-input, > button {
+    margin-right: 6px;
+    margin-bottom: 6px;
+  }
+}
+
+.groupOperationBtn {
+  > button {
+    border: #dcdfe6 solid 0.5px;
+    border-right: 0;
+
+    &:last-child {
+      border: #dcdfe6 solid 0.5px;
+    }
+  }
+}
+
+.groupOperationMenu {
+  > .v-input {
+    margin-top: 0;
+    padding: 0 8px;
+  }
+}
+
+/*富文本容器*/
+.htmlBox {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-width: 100%;
+
+  span, div, p {
+    line-height: 1.35;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+}
+
+.w100 {
+  width: 100%;
+}
+
+.wpSheet {
+  padding: 26px 24px 38px;
+  border: 1px solid #ccd0d4 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .04) !important;
+  background-color: white !important;
+}
+
+.alertSheet {
+  color: #444;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1) !important;
+  border-radius: 0 !important;
+
+  .link0 {
+    padding-left: 2px;
+  }
+}
+
+.limitText3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.limitText2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.limitText1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-align: justify;
+}

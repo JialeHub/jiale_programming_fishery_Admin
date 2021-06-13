@@ -4,6 +4,7 @@
 
 # 渔业信息采集系统 | 前端UNI-App： <br/>
 DEMO地址：<https://luojiale.com:802/> <br/>
+Apk地址：<https://luojiale.com:9802/apk/download> <br/>
 Github：<https://github.com/JialeHub/jiale_programming_fishery_UNI-APP> <br/>
 
 # 渔业信息采集系统 | 后台管理系统： <br/>
